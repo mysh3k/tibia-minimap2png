@@ -19,8 +19,9 @@ def get_minmax_coords():
 
 
 def create_png(min_x, min_y, max_x, max_y):
-    output = Image.new('RGB', (max_x - min_x + 256, max_y - min_y + 256), 'white')  # If some floors aren't calculated properly
+    output = Image.new('RGB', (max_x - min_x + 256, max_y - min_y + 256), 'black')  # If some floors aren't calculated properly
     # (there aren't all minimap files) you can replace "(max_x - min_x + 256, max_y - min_y + 256)" with desired resolution eg. (2560, 2048)
+    # output = Image.new('RGB', (2560, 2048), 'black')
     for file in os.listdir(path):
         # print(file)
         if 'Color' in file and f'_{floor}.png' in file:
