@@ -23,7 +23,7 @@ def create_png(min_x, min_y, max_x, max_y):
     # (there aren't all minimap files) you can replace "(max_x - min_x + 256, max_y - min_y + 256)" with desired resolution eg. (2560, 2048)
     for file in os.listdir(path):
         # print(file)
-        if 'Color' in file and f'{floor}.png' in file:
+        if 'Color' in file and f'_{floor}.png' in file:
             print(file, 'approved!')
             map_part = Image.open(path + '\\' + file).convert('RGB')
             coord_x, coord_y = file.split('_')[2], file.split('_')[3]
