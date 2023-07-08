@@ -6,10 +6,10 @@
 - Package: Pillow
   
 ## Configuration
-### Configure this variables to suit your needs:
+### Configure these variables to suit your needs:
 - path
 - floor
 - map_type
-## Run script
-### Get your maps in output directory 🧐
-- Works with latest version of Tibia as of 08.07.2023 I don't know if it will work with previous or future versions
+## Run the script
+### Get your maps in the output directory 🧐
+- This script works with the latest version of Tibia as of July 8th, 2023. Please note that I cannot guarantee its compatibility with previous or future versions.
