@@ -11,3 +11,5 @@
 - floor
 - map_type
 ## Run script
+### Get your maps in output directory 🧐
+- Works with latest version of Tibia as of 08.07.2023 I don't know if it will work with previous or future versions
