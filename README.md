@@ -5,3 +5,9 @@
 - Python
 - Package: Pillow
   
+## Configuration
+### Configure this variables to suit your needs:
+-path
+-floor
+-map_type
+## Run script
